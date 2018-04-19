@@ -1,7 +1,9 @@
 {
   "extends" : [
     "standard",
-    "plugin:promise/recommended"
+    "plugin:promise/recommended",
+    // Only for react projects.
+    "plugin:react/recommended"
   ],
   "plugins": [
     "promise"

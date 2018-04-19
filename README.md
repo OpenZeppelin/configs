@@ -12,7 +12,14 @@ To check the code style of smart contracts written in Solidity, we use
 
 To check the code style of code written in Javascript, we use
 [eslint](https://eslint.org/), with the rules in
-[.eslintrc](.eslintrc).
+[.eslintrc](.eslintrc) and the plugins:
+
+* eslint-config-standard
+* eslint-plugin-standard
+* eslint-plugin-import
+* eslint-plugin-node
+* eslint-plugin-promise
+* eslint-plugin-react (only for react projects)
 
 ## Disputes
 
