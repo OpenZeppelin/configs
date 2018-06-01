@@ -1,0 +1,24 @@
+{
+  "name": "zeppelin-code-style",
+  "version": "1.0.0",
+  "description": "Code style guidelines and rules for Zeppelin projects ",
+  "scripts": {
+    "test": "mocha --require should --reporter spec --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZeppelinSolutions/code-style.git"
+  },
+  "license": "CC0-1.0",
+  "bugs": {
+    "url": "https://github.com/ZeppelinSolutions/code-style/issues"
+  },
+  "homepage": "https://github.com/ZeppelinSolutions/code-style#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "dedent": "^0.7.0",
+    "mocha": "^5.2.0",
+    "should": "^13.2.1",
+    "solium": "^1.1.7"
+  }
+}
