@@ -1,2 +1,9 @@
 language: node_js
 node_js: "8"
+
+jobs:
+  include:
+    - stage: unit
+      script: npm run test
+    - stage: static
+      script: npm run lint
