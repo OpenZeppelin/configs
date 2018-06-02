@@ -4,7 +4,7 @@ let fs = require('fs');
 let dedent = require("dedent");
 let Solium = require("solium");
 
-let userConfig = JSON.parse(fs.readFileSync('.soliumrc.json', 'utf8'));
+const userConfig = JSON.parse(fs.readFileSync('.soliumrc.json', 'utf8'));
 
 describe("[RULE] arg-overflow", function() {
 
@@ -21,8 +21,8 @@ describe("[RULE] arg-overflow", function() {
                 contract Dummy {
                   function testFunc(uint arg1, uint arg2, uint arg3, uint arg4) public {
                   }
-                }`,
-        errors = Solium.lint(code, userConfig);
+                }`;
+    let errors = Solium.lint(code, userConfig);
 
     errors.should.deepEqual([]);
 
