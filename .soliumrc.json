@@ -16,7 +16,6 @@
     "indentation": ["warning", 2],
     "max-len": ["warning", 120],
     "arg-overflow": ["warning", 3],
-    "no-unused-vars": "error",
     "no-constant": "error",
     "security/enforce-explicit-visibility": "error",
     "security/no-block-members": "warning",
