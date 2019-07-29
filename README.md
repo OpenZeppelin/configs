@@ -24,4 +24,4 @@ To check the code style of code written in Javascript, we use
 ## Disputes
 
 If you dislike a rule, please
-[open an issue](https://github.com/ZeppelinSolutions/code-style/issues).
+[open an issue](https://github.com/OpenZeppelin/code-style/issues).
