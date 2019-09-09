@@ -23,7 +23,7 @@ To check the code style of code written in Javascript, we use
 
 ## Prettier
 
-We use `Prettier` as code formated to keep our code consistent and to reduce friction for reading and review code.
+We use `Prettier` as a code formatter to keep our code consistent and to reduce friction for reading and reviewing code.
 
 ## Disputes
 
