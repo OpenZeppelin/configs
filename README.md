@@ -1,6 +1,6 @@
 # code-style
 
-Code style guidelines and rules for Zeppelin projects.
+Code style guidelines and rules for OpenZeppelin projects.
 
 ## Solidity
 
@@ -14,12 +14,16 @@ To check the code style of code written in Javascript, we use
 [eslint](https://eslint.org/), with the rules in
 [.eslintrc](.eslintrc) and the plugins:
 
-* eslint-config-standard
-* eslint-plugin-standard
-* eslint-plugin-import
-* eslint-plugin-node
-* eslint-plugin-promise
-* eslint-plugin-react (only for react projects)
+- eslint-config-standard
+- eslint-plugin-standard
+- eslint-plugin-import
+- eslint-plugin-node
+- eslint-plugin-promise
+- eslint-plugin-react (only for react projects)
+
+## Prettier
+
+We use `Prettier` as a code formatter to keep our code consistent and to reduce friction for reading and reviewing code.
 
 ## Disputes
 
