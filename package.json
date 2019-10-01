@@ -1,0 +1,7 @@
+{
+  "name": "code-style",
+  "version": "0.1.0",
+  "private": true,
+  "repository": "github:OpenZeppelin/code-style",
+  "license": "MIT"
+}
