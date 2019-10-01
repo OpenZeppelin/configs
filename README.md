@@ -1,6 +1,6 @@
 # code-style
 
-Code style guidelines and rules for OpenZeppelin projects.
+Code style guidelines and rules for OpenZeppelin projects. Reusable linter and formatter configurations.
 
 ## Solidity
 
@@ -8,24 +8,30 @@ To check the code style of smart contracts written in Solidity, we use
 [solium](https://github.com/duaraghav8/Solium) v1.1.7, with the rules in
 [.soliumrc.json](.soliumrc.json).
 
-## Javascript
+## JavaScript
 
-To check the code style of code written in Javascript, we use
-[eslint](https://eslint.org/), with the rules in
-[.eslintrc](.eslintrc) and the plugins:
+We use Prettier as a code formatter to keep our code consistent and to reduce friction for reading and reviewing code.
 
-- eslint-config-standard
-- eslint-plugin-standard
-- eslint-plugin-import
-- eslint-plugin-node
-- eslint-plugin-promise
-- eslint-plugin-react (only for react projects)
+We use Prettier through ESLint.
 
-## Prettier
+```
+npm install github:OpenZeppelin/code-style
+```
 
-We use `Prettier` as a code formatter to keep our code consistent and to reduce friction for reading and reviewing code.
+#### `.eslintrc`
+
+```
+{
+  "extends": ["./node_modules/code-style/.eslintrc"]
+}
+```
+
+#### `.prettierrc`
+
+```
+"code-style/.prettierrc"
+```
 
 ## Disputes
 
-If you dislike a rule, please
-[open an issue](https://github.com/OpenZeppelin/code-style/issues).
+If you dislike a rule, please [open an issue](https://github.com/OpenZeppelin/code-style/issues).
