@@ -3,5 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "repository": "github:OpenZeppelin/code-style",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "eslint-config-prettier": "^6.3.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "prettier": "^1.18.2"
+  }
 }
