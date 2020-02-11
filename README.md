@@ -25,6 +25,8 @@ To check the code style of code written in Javascript, we use
 
 We use `Prettier` as a code formatter to keep our code consistent and to reduce friction for reading and reviewing code.
 
+## [Pull Requests](PR.md)
+
 ## Disputes
 
 If you dislike a rule, please
