@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "incremental": true,
-    "target": "es6",
+    "target": "es2017",
     "module": "commonjs",
     "sourceMap": true,
     "strict": true,
