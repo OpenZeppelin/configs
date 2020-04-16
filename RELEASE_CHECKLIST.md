@@ -1,8 +1,8 @@
 # Release checklist
 
-* Check that major dependant projects work well with a new version
-* Forum/twitter announcement
-* NPM package
-* GitHub release
+* Check that major dependent projects work well with the new version
 * Changelog updated
+* NPM package
 * Docs udpated
+* GitHub release
+* Forum/twitter announcement
