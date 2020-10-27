@@ -3,5 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "repository": "github:OpenZeppelin/code-style",
+  "workspaces": [
+    "packages/*"
+  ],
   "license": "MIT"
 }
