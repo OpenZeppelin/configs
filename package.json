@@ -3,18 +3,5 @@
   "version": "0.1.0",
   "private": true,
   "repository": "github:OpenZeppelin/code-style",
-  "renovate-config": {
-    "default": {
-      "rangeStrategy": "replace",
-      "extends": [
-        "helpers:disableTypesNodeMajor"
-      ],
-      "lockFileMaintenance": {
-        "enabled": true,
-        "extends": ["schedule:weekly"],
-        "commitMessageAction": "Update lockfile"
-      }
-    }
-  },
   "license": "MIT"
 }

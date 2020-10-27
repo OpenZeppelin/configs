@@ -1,0 +1,11 @@
+{
+  "rangeStrategy": "replace",
+  "extends": [
+    "helpers:disableTypesNodeMajor"
+  ],
+  "lockFileMaintenance": {
+    "enabled": true,
+    "extends": ["schedule:weekly"],
+    "commitMessageAction": "Update lockfile"
+  }
+}
