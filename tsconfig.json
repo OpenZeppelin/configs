@@ -1,11 +1,13 @@
 {
   "compilerOptions": {
     "incremental": true,
-    "target": "es2017",
+    "target": "es2018",
     "module": "commonjs",
-    "sourceMap": true,
     "strict": true,
     "moduleResolution": "node",
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "sourceMap": true,
+    "declaration": true,
+    "declarationMap": true
   }
 }
