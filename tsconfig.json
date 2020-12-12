@@ -4,6 +4,7 @@
     "target": "es2018",
     "module": "commonjs",
     "strict": true,
+    "noUncheckedIndexedAccess": true,
     "moduleResolution": "node",
     "esModuleInterop": true,
     "sourceMap": true,
