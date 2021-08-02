@@ -5,7 +5,7 @@
   ],
   "lockFileMaintenance": {
     "enabled": true,
-    "extends": ["schedule:weekly"],
+    "extends": ["schedule:monthly"],
     "commitMessageAction": "Update lockfile"
   }
 }
