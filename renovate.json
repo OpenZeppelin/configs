@@ -1,7 +1,8 @@
 {
   "rangeStrategy": "replace",
   "extends": [
-    "helpers:disableTypesNodeMajor"
+    "helpers:disableTypesNodeMajor",
+    "group:typescript-eslintMonorepo"
   ],
   "lockFileMaintenance": {
     "enabled": true,
