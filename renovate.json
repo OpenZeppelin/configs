@@ -8,5 +8,11 @@
     "enabled": true,
     "extends": ["schedule:monthly"],
     "commitMessageAction": "Update lockfile"
-  }
+  },
+  "packageRules": [
+    {
+      "matchPackageNames": ["@openzeppelin/contracts", "@openzeppelin/contracts-upgradeable"],
+      "groupName": "OpenZeppelin Contracts"
+    }
+  ]
 }
