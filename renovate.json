@@ -2,7 +2,8 @@
   "rangeStrategy": "replace",
   "extends": [
     "helpers:disableTypesNodeMajor",
-    "group:typescript-eslintMonorepo"
+    "group:typescript-eslintMonorepo",
+    ":semanticCommitsDisabled"
   ],
   "lockFileMaintenance": {
     "enabled": true,
