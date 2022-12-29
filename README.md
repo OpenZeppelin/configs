@@ -1,33 +1,13 @@
-# code-style
-
-Code style guidelines and rules for OpenZeppelin projects.
-
-## Solidity
-
-To check the code style of smart contracts written in Solidity, we use
-[solium](https://github.com/duaraghav8/Solium) v1.1.7, with the rules in
-[.soliumrc.json](.soliumrc.json).
-
-## Javascript
-
-To check the code style of code written in Javascript, we use
-[eslint](https://eslint.org/), with the rules in
-[.eslintrc](.eslintrc) and the plugins:
-
-- eslint-config-standard
-- eslint-plugin-standard
-- eslint-plugin-import
-- eslint-plugin-node
-- eslint-plugin-promise
-- eslint-plugin-react (only for react projects)
+Configuration for tools used across OpenZeppelin projects.
 
 ## Prettier
 
-We use `Prettier` as a code formatter to keep our code consistent and to reduce friction for reading and reviewing code.
+We use [Prettier](https://prettier.io) as a code formatter to keep our code consistent and to reduce friction for reading and reviewing code.
 
-## [Pull Requests](PR.md)
+For Solidity we use the [Prettier Solidity](https://github.com/prettier-solidity/prettier-plugin-solidity) plugin.
 
-## Disputes
+## JavaScript
 
-If you dislike a rule, please
-[open an issue](https://github.com/OpenZeppelin/code-style/issues).
+To check for common errors in JavaScript or TypeScript, we use [ESLint](https://eslint.org/), with the rules in [.eslintrc](.eslintrc). Note that some additional packages are required.
+
+ESLint should run with `--max-warnings 0` in CI.
