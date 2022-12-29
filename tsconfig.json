@@ -1,13 +1,17 @@
 {
   "compilerOptions": {
     "incremental": true,
-    "target": "es2019",
+    "target": "es2022",
     "module": "commonjs",
-    "strict": true,
-    "moduleResolution": "node",
-    "esModuleInterop": true,
     "sourceMap": true,
     "declaration": true,
-    "declarationMap": true
+    "declarationMap": true,
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true
+  },
+  "ts-node": {
+    "transpileOnly": true
   }
 }
