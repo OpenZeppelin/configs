@@ -2,7 +2,6 @@
   "rangeStrategy": "replace",
   "extends": [
     "helpers:disableTypesNodeMajor",
-    "group:typescript-eslintMonorepo",
     ":semanticCommitsDisabled"
   ],
   "lockFileMaintenance": {
@@ -14,6 +13,11 @@
     {
       "matchPackageNames": ["@openzeppelin/contracts", "@openzeppelin/contracts-upgradeable"],
       "groupName": "OpenZeppelin Contracts"
+    },
+    {
+      "matchPackageNames": ["prettier"],
+      "matchPackagePrefixes": ["@typescript-eslint/", "eslint"],
+      "groupName": "Linters"
     }
   ]
 }
